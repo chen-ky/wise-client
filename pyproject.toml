@@ -11,6 +11,8 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.7"
+keywords = ["wise", "transferwise", "async", "REST API", "api", "exchange rate",
+            "currency", "finance"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
@@ -43,4 +45,4 @@ doc = [
 ]
 
 [project.urls]
-"repository" = "https://github.com/chen-ky/wise-client"
+repository = "https://github.com/chen-ky/wise-client"
