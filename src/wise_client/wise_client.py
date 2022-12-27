@@ -25,14 +25,15 @@ class WiseClient(BaseClient):
         """
         await self._update_user_id()
 
-    # async def update_address(self, profile) -> dict[str, Any]:
-    #     """Create or update address info
-    #     https://api-docs.wise.com/#addresses-create-update
-    #     """
-    #     endpoint = "/v1/addresses"
-    #     params = {"profile"}
+    async def update_address(self, profile) -> dict[str, Any]:
+        """Create or update address info
+        https://api-docs.wise.com/#addresses-create-update
+        """
+        raise NotImplementedError  # TODO
+        endpoint = "/v1/addresses"
+        params = {"profile"}
 
-    #     return await self.query("POST", endpoint=endpoint, params=params)
+        return await self.query("POST", endpoint=endpoint, params=params)
 
     async def get_currency_pair(self) -> dict[str, Any]:
         """Get list of allowed currency pairs.
@@ -111,7 +112,6 @@ class WiseClient(BaseClient):
           ValueError: `target_amount` or `source_amount` not mutually exclusive
           or both have values equal to or less than 0.
         """
-        raise NotImplementedError  # 403 for some reason?
         endpoint = f"/v3/profiles/{self.user_id}/quotes"
 
         if target_amount is not None and target_amount <= 0:
