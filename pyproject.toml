@@ -10,7 +10,7 @@ authors = [
     { name = "Chen Kang Yang" }
 ]
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 keywords = ["wise", "transferwise", "async", "REST API", "api", "exchange rate",
             "currency", "finance"]
 classifiers = [
