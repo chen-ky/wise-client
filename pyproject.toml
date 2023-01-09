@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wise_client"
-version = "0.0.1a0"
-description = "An asynchronous HTTP client for Wise"
+version = "0.0.2a0"
+description = "An asynchronous HTTP API wrapper for the Wise API"
 authors = [
     { name = "Chen Kang Yang" }
 ]
