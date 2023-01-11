@@ -48,4 +48,6 @@ doc = [
 ]
 
 [project.urls]
-repository = "https://github.com/chen-ky/wise-client"
+repository = "https://github.com/chen-ky/wise-client.git"
+changelog = "https://github.com/chen-ky/wise-client/releases"
+"Bug Tracker" = "https://github.com/chen-ky/wise-client/issues"
