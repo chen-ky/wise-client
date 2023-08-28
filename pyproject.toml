@@ -23,7 +23,7 @@ classifiers = [
 license = { file = "LICENSE" }
 
 dependencies = [
-    "anyio==3.7.0",
+    "anyio==3.7.1",
     "certifi==2023.7.22",
     "h11==0.14.0",
     "h2==4.1.0",
