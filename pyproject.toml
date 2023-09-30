@@ -29,7 +29,7 @@ dependencies = [
     "h2==4.1.0",
     "hpack==4.0.0",
     "httpcore==0.18.0",
-    "httpx==0.24.1",
+    "httpx==0.25.0",
     "hyperframe==6.0.1",
     "idna==3.4",
     "rfc3986==2.0.0",
